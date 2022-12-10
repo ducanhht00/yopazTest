@@ -93,6 +93,7 @@ class ViewController: UIViewController {
     
     @IBAction func equalPressed(_ sender: UIButton) {
         tinhtoan(operation: currentOperation)
+        currentOperation = ""
     }
     
     func tinhtoan(operation : String){
